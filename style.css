@@ -1,0 +1,213 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "FiraGO";
+}
+
+@font-face {
+  font-family: "FiraGO";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/firago@latest/latin-400-normal.woff2)
+      format("woff2"),
+    url(https://cdn.jsdelivr.net/fontsource/fonts/firago@latest/latin-400-normal.woff)
+      format("woff");
+}
+
+header {
+  width: 100%;
+  height: 107px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #bce7e7;
+}
+
+nav ul {
+  display: flex;
+  margin-right: 79px;
+}
+
+nav li {
+  font-size: 18px;
+  margin-right: 40px;
+  font-weight: bold;
+  font-family: "BPG Nino Mtavruli", sans-serif;
+  list-style: none;
+}
+
+.navATag {
+  text-decoration: none;
+  color: #042b27;
+  animation-name: underlineAnimation;
+  transition: 0.5s ease;
+}
+.navATag:hover {
+  padding-bottom: 18px;
+  border-bottom: 2px solid #eb96ab;
+}
+
+.logoDiv {
+  width: 156px;
+  height: 56px;
+  margin: 27px 0px 24px 80px;
+}
+
+.section1 {
+  width: 1366px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box1 {
+  width: 179px;
+  height: 102px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box1-txt {
+  width: 179px;
+  height: 68px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #f5e393;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  color: #042b27;
+  transition: all 0.5s ease;
+}
+.box1-txt:hover {
+  opacity: 0.56;
+  cursor: pointer;
+}
+.starimg1 {
+  width: 78px;
+  height: 26px;
+  margin: 21px 0px 8px 0px;
+}
+
+.box2 {
+  width: 179px;
+  height: 102px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box2-txt {
+  width: 179px;
+  height: 68px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #f5e393;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  color: #042b27;
+  transition: all 0.5s ease;
+}
+.box2-txt:hover {
+  opacity: 0.56;
+  cursor: pointer;
+}
+.starimg2 {
+  width: 104px;
+  height: 26px;
+  margin: 21px 0px 8px 0px;
+}
+
+.section2 {
+  width: 100%;
+  height: 346px;
+  margin-top: 62px;
+  background-color: #bce7e7;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 184px;
+  height: 200px;
+  border-radius: 10px;
+  border: 4px solid #98d4bb;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+.card:hover {
+  opacity: 0.56;
+  cursor: pointer;
+}
+
+.cardDiv {
+  width: 184px;
+  height: 236px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardDiv1 {
+  width: 184px;
+  height: 236px;
+  margin-right: 20px;
+  margin-left: 81px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardDiv6 {
+  width: 184px;
+  height: 236px;
+  margin-right: 81px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardtxt {
+  margin-top: 12px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.startbtn {
+  width: 127px;
+  height: 58px;
+  border-radius: 10px;
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  background-color: #f5e393;
+  font-family: "FiraGO";
+  transition: all 0.5s ease;
+}
+.startbtn:hover {
+  opacity: 0.56;
+  cursor: pointer;
+}
